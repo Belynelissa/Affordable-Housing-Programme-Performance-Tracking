@@ -2,9 +2,11 @@
 
 A Business Intelligence solution for bringing project delivery, financial, contractor and geographic information into one performance view.
 
+This work was presented to paying clients. The public-facing version uses simulated programme data to protect confidential client information while showing the reporting approach, analytical structure and management questions addressed.
+
 The reporting framework is designed around the questions programme managers and decision-makers need to answer: What is progressing? Where are delays emerging? How is allocated funding being utilised? Which projects or delivery areas need closer management attention?
 
-> **Data confidentiality:** The dataset used in this demonstration is simulated and does not contain official government, programme or client records. It allows the reporting approach and analytical structure to be demonstrated without exposing confidential information. Figures shown should not be interpreted as actual programme performance.
+> **Data confidentiality:** The dataset published here is simulated and does not contain official government, programme or client records. It is used in place of confidential client data. Figures shown demonstrate the reporting structure and should not be interpreted as actual programme performance.
 
 ---
 
@@ -128,6 +130,10 @@ Affordable-Housing-Programme-Performance-Tracking/
 - The dataset is simulated and is not official programme or client data.
 - The dashboard demonstrates a reporting framework; it does not establish actual project, contractor or financial performance.
 - No real-world cost savings, delivery improvements or programme outcomes are claimed.
+
+## Professional context
+
+This reporting work was presented to paying clients. The public repository documents the analytical and reporting approach without publishing confidential client records or implying that the simulated figures represent actual programme results.
 
 ## About
 
