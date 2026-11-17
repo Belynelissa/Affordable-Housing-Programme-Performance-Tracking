@@ -1,46 +1,46 @@
 # Programme Delivery Intelligence | Affordable Housing & Market Infrastructure
 
-A Business Intelligence portfolio project demonstrating how programme managers and decision-makers can bring fragmented project, financial, contractor and geographic information into one performance view.
+A Business Intelligence solution for bringing project delivery, financial, contractor and geographic information into one performance view.
 
-The solution is designed to support oversight of a multi-project development programme: understanding delivery progress, monitoring financial exposure, comparing implementation across locations and identifying areas that may require management attention.
+The reporting framework is designed around the questions programme managers and decision-makers need to answer: What is progressing? Where are delays emerging? How is allocated funding being utilised? Which projects or delivery areas need closer management attention?
 
-> **Data disclaimer:** This is an independent portfolio demonstration. The datasets are simulated and were generated for learning and demonstration purposes; they are not official government or programme records. The dashboard illustrates an analytical approach and should not be interpreted as reporting actual programme performance.
+> **Data confidentiality:** The dataset used in this demonstration is simulated and does not contain official government, programme or client records. It allows the reporting approach and analytical structure to be demonstrated without exposing confidential information. Figures shown should not be interpreted as actual programme performance.
 
 ---
 
-## The management problem
+## The management challenge
 
-Large development programmes involve multiple projects, locations, contractors, budgets and delivery timelines. When these elements are reviewed separately, it can be difficult for management to get a consistent view of overall progress and identify where closer follow-up may be needed.
+Large development programmes involve multiple projects, locations, contractors, budgets and delivery timelines. When these elements are reviewed separately, management can struggle to establish a consistent view of delivery and financial performance.
 
-This project demonstrates a consolidated reporting approach that brings those dimensions together.
+A consolidated reporting view helps bring these dimensions together, making it easier to monitor progress, compare performance and direct attention to areas that may need follow-up.
 
-## What the solution helps decision-makers examine
+## What the reporting makes visible
 
-- **Programme health:** project status, completion, delays and extensions across the portfolio.
+- **Programme health:** project status, completion, delays and extensions across the programme.
 - **Financial oversight:** allocated budgets, expenditure, utilization, variance and projects exceeding budget.
 - **Delivery performance:** housing unit progress, completion rates and cost per housing unit.
 - **Contractor oversight:** project allocations, workloads and performance indicators.
 - **Geographic distribution:** project activity and investment across counties.
 - **Market infrastructure delivery:** progress views for Modern Market and ESP Market projects.
 
-## Decisions the reporting can support
+## Management decisions this intelligence can support
 
-The dashboard is structured to help programme teams:
+The reporting is structured to help programme teams:
 
 1. Prioritise projects that require closer delivery follow-up.
 2. Identify budget utilization and variance patterns that warrant review.
 3. Compare delivery progress across project types, contractors and locations.
-4. Track housing-unit delivery against the programme's planned outputs.
-5. Prepare more consistent management updates using a shared set of indicators.
+4. Track housing-unit delivery against planned outputs.
+5. Prepare consistent management updates using a shared set of indicators.
 
-These are potential uses of the reporting framework, not claims of measured improvements or outcomes from a live programme.
+These are decision-support applications of the reporting framework, not claims of measured savings or improvements from a live programme.
 
 ---
 
-## Dashboard views
+## Performance reporting views
 
 ### 1. Executive overview
-A consolidated view of project status, budget utilization, completion and portfolio indicators.
+A consolidated view of project status, budget utilization, completion and programme health indicators.
 
 <img width="1378" height="753" alt="Executive Overview" src="https://github.com/user-attachments/assets/564b64e3-11bb-483b-be56-83086372e235" />
 
@@ -75,7 +75,7 @@ Presents budget allocation, expenditure, utilization, variance, projects over bu
 
 ## Performance indicators
 
-The reporting includes indicators such as:
+The reporting includes:
 
 - Total projects and project status
 - Budget allocated and budget spent
@@ -88,7 +88,7 @@ The reporting includes indicators such as:
 
 ## Data structure
 
-The Power BI model brings together the following subject areas:
+The Power BI model brings together:
 
 - Housing projects
 - Modern markets
@@ -97,20 +97,20 @@ The Power BI model brings together the following subject areas:
 - Counties
 - Calendar
 
-The model supports cross-filtering and analysis across delivery, financial, contractor and geographic dimensions.
+The model supports analysis across delivery, financial, contractor and geographic dimensions.
 
-## How it was built
+## Delivery approach and tools
 
 | Stage | Tools | Work completed |
 |---|---|---|
-| Data generation and preparation | Python | Generated and prepared simulated programme datasets |
-| Data storage | MySQL | Structured and stored the project data |
+| Data preparation | Python | Generated and prepared simulated programme datasets |
+| Data storage | MySQL | Structured and stored project data |
 | Modelling and analysis | Power BI, DAX | Developed relationships, measures and performance indicators |
 | Reporting | Power BI | Built interactive views for programme oversight |
 
-## Skills demonstrated
+## Business intelligence capabilities
 
-Business intelligence, performance reporting, data preparation, SQL database management, data modelling, DAX, financial analysis, project performance analysis, data visualization and business storytelling.
+Programme performance reporting, data preparation, SQL database management, data modelling, DAX, financial analysis, project performance analysis, data visualization and business storytelling.
 
 ## Repository contents
 
@@ -125,7 +125,7 @@ Affordable-Housing-Programme-Performance-Tracking/
 
 ## Scope and limitations
 
-- The datasets are simulated and are not official programme data.
+- The dataset is simulated and is not official programme or client data.
 - The dashboard demonstrates a reporting framework; it does not establish actual project, contractor or financial performance.
 - No real-world cost savings, delivery improvements or programme outcomes are claimed.
 
