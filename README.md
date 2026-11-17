@@ -8,6 +8,10 @@ The reporting framework is designed around the questions programme managers and 
 
 > **Data confidentiality:** The dataset published here is simulated and does not contain official government, programme or client records. It is used in place of confidential client data. Figures shown demonstrate the reporting structure and should not be interpreted as actual programme performance.
 
+## Dashboard preview
+
+<img width="1378" height="753" alt="Executive Overview" src="https://github.com/user-attachments/assets/564b64e3-11bb-483b-be56-83086372e235" />
+
 ---
 
 ## The management challenge
@@ -43,8 +47,6 @@ These are decision-support applications of the reporting framework, not claims o
 
 ### 1. Executive overview
 A consolidated view of project status, budget utilization, completion and programme health indicators.
-
-<img width="1378" height="753" alt="Executive Overview" src="https://github.com/user-attachments/assets/564b64e3-11bb-483b-be56-83086372e235" />
 
 ### 2. Housing delivery
 Tracks housing project delivery, planned versus completed units, completion rates, delivery trends and cost per housing unit.
