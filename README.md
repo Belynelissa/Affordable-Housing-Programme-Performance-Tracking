@@ -1,120 +1,121 @@
-# Affordable Housing Programme Performance Tracking Dashboard
+# Programme Delivery Intelligence | Affordable Housing & Market Infrastructure
 
-## Project Overview
+A Business Intelligence portfolio project demonstrating how programme managers and decision-makers can bring fragmented project, financial, contractor and geographic information into one performance view.
 
-The **Affordable Housing Programme Performance Tracking Dashboard** is an end-to-end Business Intelligence project designed to monitor and evaluate the performance of affordable housing and market infrastructure projects through interactive dashboards and data-driven insights.
+The solution is designed to support oversight of a multi-project development programme: understanding delivery progress, monitoring financial exposure, comparing implementation across locations and identifying areas that may require management attention.
 
-The project demonstrates a complete analytics workflow, from data generation and preparation to database management, data modelling, visualization, and business reporting.
-
-> **Disclaimer:** This is a personal portfolio project and **does not use official government data**. All datasets used in this project were **simulated and generated for learning and demonstration purposes** to replicate realistic project management scenarios. Any resemblance to actual projects, budgets, contractors, organizations, or locations is purely coincidental.
+> **Data disclaimer:** This is an independent portfolio demonstration. The datasets are simulated and were generated for learning and demonstration purposes; they are not official government or programme records. The dashboard illustrates an analytical approach and should not be interpreted as reporting actual programme performance.
 
 ---
 
-## Project Objectives
+## The management problem
 
-This project aims to:
+Large development programmes involve multiple projects, locations, contractors, budgets and delivery timelines. When these elements are reviewed separately, it can be difficult for management to get a consistent view of overall progress and identify where closer follow-up may be needed.
 
-- Monitor project delivery across housing and market infrastructure projects.
-- Track budget allocation, expenditure, and financial performance.
-- Evaluate contractor performance and project distribution.
-- Analyse project implementation across counties.
-- Demonstrate end-to-end Business Intelligence skills using industry-standard tools.
+This project demonstrates a consolidated reporting approach that brings those dimensions together.
+
+## What the solution helps decision-makers examine
+
+- **Programme health:** project status, completion, delays and extensions across the portfolio.
+- **Financial oversight:** allocated budgets, expenditure, utilization, variance and projects exceeding budget.
+- **Delivery performance:** housing unit progress, completion rates and cost per housing unit.
+- **Contractor oversight:** project allocations, workloads and performance indicators.
+- **Geographic distribution:** project activity and investment across counties.
+- **Market infrastructure delivery:** progress views for Modern Market and ESP Market projects.
+
+## Decisions the reporting can support
+
+The dashboard is structured to help programme teams:
+
+1. Prioritise projects that require closer delivery follow-up.
+2. Identify budget utilization and variance patterns that warrant review.
+3. Compare delivery progress across project types, contractors and locations.
+4. Track housing-unit delivery against the programme's planned outputs.
+5. Prepare more consistent management updates using a shared set of indicators.
+
+These are potential uses of the reporting framework, not claims of measured improvements or outcomes from a live programme.
 
 ---
 
-## Tools & Technologies
+## Dashboard views
 
-- **Python** – Simulated data generation and preparation
-- **MySQL** – Database storage and management
-- **Power BI** – Data modelling, DAX calculations, and dashboard development
-- **Git & GitHub** – Version control and project documentation
+### 1. Executive overview
+A consolidated view of project status, budget utilization, completion and portfolio indicators.
 
----
-
-## Dashboard Pages
-
-### Executive Overview
-Provides a high-level summary of programme performance, including project status, budget utilization, completion rates, and portfolio health indicators.
 <img width="1378" height="753" alt="Executive Overview" src="https://github.com/user-attachments/assets/564b64e3-11bb-483b-be56-83086372e235" />
 
-### Housing Performance
-Tracks housing project delivery, planned versus completed housing units, project completion rates, delivery trends, and cost per housing unit.
+### 2. Housing delivery
+Tracks housing project delivery, planned versus completed units, completion rates, delivery trends and cost per housing unit.
+
 <img width="1373" height="756" alt="Housing Dashboard Tracking" src="https://github.com/user-attachments/assets/9b70e2a3-d4ea-4bd2-b407-2dbad2185723" />
 
-### Markets Performance
-Monitors Modern Market and ESP Market projects, project status, delivery progress, and investment distribution.
+### 3. Market infrastructure
+Separate views for Modern Market and ESP Market projects, including project status, delivery progress and investment distribution.
+
 <img width="1375" height="753" alt="Modern Market Tracking" src="https://github.com/user-attachments/assets/75c43e2e-11b0-4758-b7bd-c3df6d4c76e3" />
 
 <img width="1376" height="761" alt="ESP Market Tracking" src="https://github.com/user-attachments/assets/6011a9e4-fe91-4f99-880a-b29c01c41635" />
 
-### Contractor Performance
-Evaluates contractor workloads, project allocations, budget management, contractor categories, experience, specialties, and performance metrics.
+### 4. Contractor performance
+Examines contractor workloads, project allocations, categories, experience, specialties and performance indicators.
+
 <img width="1360" height="758" alt="Contractor Performance" src="https://github.com/user-attachments/assets/b1458124-e07e-485e-8924-aa90985b6bf9" />
 
-### County Analysis
-Examines project distribution, investment levels, and programme implementation across counties.
+### 5. County analysis
+Shows how projects and investment are distributed geographically.
+
 <img width="1355" height="759" alt="County Analysis" src="https://github.com/user-attachments/assets/1c27efa5-4ff5-4978-86f7-f4bdaaa77589" />
 
-### Financial Performance
-Analyses budget allocation, expenditure, budget utilization, budget variance, projects exceeding budget, and average investment by project type.
+### 6. Financial performance
+Presents budget allocation, expenditure, utilization, variance, projects over budget and average investment by project type.
+
 <img width="1372" height="757" alt="Financial performance" src="https://github.com/user-attachments/assets/d2eaef50-8e65-4db8-a20c-72ffe5e99c00" />
 
 ---
 
-## Key Performance Indicators (KPIs)
+## Performance indicators
 
-- Total Projects
-- Budget Allocated
-- Budget Spent
-- Budget Utilization (%)
-- Budget Variance
-- Completion Rate
-- Delay Rate
-- Extension Rate
-- Housing Unit Delivery Rate
-- Cost per Housing Unit
-- Projects Over Budget
-- Average Budget per Project
-- Contractor Performance Metrics
-- County Investment Analysis
+The reporting includes indicators such as:
 
----
+- Total projects and project status
+- Budget allocated and budget spent
+- Budget utilization and budget variance
+- Completion rate, delay rate and extension rate
+- Housing unit delivery rate and cost per housing unit
+- Projects over budget
+- Average budget per project
+- Contractor and county-level performance indicators
 
-## Data Model
+## Data structure
 
-The project consists of the following datasets:
+The Power BI model brings together the following subject areas:
 
-- Housing Projects
-- Modern Markets
-- ESP Markets
+- Housing projects
+- Modern markets
+- ESP markets
 - Contractors
 - Counties
 - Calendar
 
-These datasets were modelled to support cross-functional analysis and interactive reporting within Power BI.
+The model supports cross-filtering and analysis across delivery, financial, contractor and geographic dimensions.
 
----
+## How it was built
 
-## Skills Demonstrated
+| Stage | Tools | Work completed |
+|---|---|---|
+| Data generation and preparation | Python | Generated and prepared simulated programme datasets |
+| Data storage | MySQL | Structured and stored the project data |
+| Modelling and analysis | Power BI, DAX | Developed relationships, measures and performance indicators |
+| Reporting | Power BI | Built interactive views for programme oversight |
 
-- Data Modelling
-- Data Cleaning
-- SQL Database Management
-- DAX Measure Development
-- Dashboard Design
-- Data Visualization
-- Business Intelligence Reporting
-- Financial Analysis
-- Project Performance Analysis
-- Business Storytelling
+## Skills demonstrated
 
----
+Business intelligence, performance reporting, data preparation, SQL database management, data modelling, DAX, financial analysis, project performance analysis, data visualization and business storytelling.
 
-## Repository Contents
+## Repository contents
 
 ```
 Affordable-Housing-Programme-Performance-Tracking/
-│
 ├── README.md
 ├── Affordable_Housing_Dashboard.pbix
 ├── data/
@@ -122,26 +123,15 @@ Affordable-Housing-Programme-Performance-Tracking/
 └── screenshots/
 ```
 
----
+## Scope and limitations
 
-## Future Improvements
+- The datasets are simulated and are not official programme data.
+- The dashboard demonstrates a reporting framework; it does not establish actual project, contractor or financial performance.
+- No real-world cost savings, delivery improvements or programme outcomes are claimed.
 
-Potential future enhancements include:
+## About
 
-- Procurement and supplier analytics
-- Risk management dashboard
-- Project milestone tracking
-- Predictive forecasting of project completion
-- Automated data refresh using cloud services
+**Belyne Lissa Bochere**  
+Business Intelligence | Performance Analytics | SQL | Python | Power BI
 
----
-
-## Author
-
-**Belyne Lissa Bochere**
-
-Bachelor of Science in Applied Statistics with Computing
-
-Business Intelligence | Data Analytics | SQL | Python | Power BI
-
-Passionate about transforming complex datasets into meaningful insights that support informed decision-making through analytics and interactive dashboards.
+*See Beyond Numbers — turning complex information into clearer performance insight and better-informed decisions.*
